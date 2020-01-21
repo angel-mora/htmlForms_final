@@ -1,0 +1,255 @@
+body {
+    background: #eceef1;
+    font-family: 'Prompt',
+        sans-serif;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+
+}
+
+.signin-section {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 30px;
+}
+
+.signin-info p {
+    margin: 0;
+    color: #0077c5;
+    font-size: 12px;
+}
+
+.signin-info p:first-child {
+    color: #505050;
+}
+
+.sign-btn {
+    margin: 0 0 0 10px;
+}
+
+.sign-in-btn {
+    background: #0077c5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    font-size: 1.125em;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+    padding: 0 20px;
+    height: 34px;
+    text-transform: none;
+    line-height: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.sign-in-lock-icon {
+    height: 1em;
+    width: .8em;
+    margin-top: 2px;
+    margin-right: 4px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* .sign-in-btn .sign-in-lock-icon {
+    height: 1em;
+    width: .8em;
+    margin: 2px 0 0 4px;
+    vertical-align: text-top;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+.main-content {
+    margin: auto;
+    padding-bottom: 4em;
+}
+
+.logos-section {
+    padding: 20px 0;
+}
+
+.logo {
+    height: 35px;
+    width: 118px;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new@2x-a8356d8c.png);
+    background-size: 562px 83px;
+    margin: auto;
+}
+
+/* .logo-icons-section {
+    width: 70px;
+} */
+
+.logo-icons-section img {
+    position: absolute;
+    width: 18%;
+    right: 65em;
+
+
+}
+
+/* .form-section {
+    height: 668px;
+    width: 340px;
+    margin: auto;
+} */
+
+.form-body {
+    height: 668px;
+    width: 340px;
+    padding: 30px;
+    border: 1px solid #c7c7c7;
+    margin: auto;
+    background: #ffffff;
+}
+
+form {
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 24px;
+}
+
+.learn-more {
+    margin: 0;
+    color: #0077c5;
+}
+
+.form-header {
+    padding-bottom: 3em;
+}
+
+
+.form-header p:nth-of-type(1) {
+    margin-bottom: 0;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input div {
+    height: 3em;
+}
+
+.form-input label {
+    text-align: start;
+    padding: 0 0 .3em 0.1em;
+    font-size: 14px;
+    color: #404040;
+}
+
+.form-input input {
+    padding: 0 6px 0 8px;
+    width: 320px;
+    height: 34px;
+    align-self: center;
+}
+
+.form-input p {
+    text-align: start;
+    margin: 0;
+    font-size: 10px;
+    padding: .4em 0 .4em .2em;
+}
+
+.lock {
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/lock-left-grey@3x-a1ab5bd1.png) no-repeat 0 50%/21px 21px;
+    height: 54.3em;
+    position: absolute;
+    top: 1%;
+    width: 29em;
+    width: 44em;
+    width: 3em;
+    /* left: 1%; */
+    right: 10px;
+}
+
+.form-input button {
+    width: 338px;
+    height: 44px;
+    background: #0077c5;
+    align-self: center;
+    color: #ffffff;
+    border-radius: .4em;
+    font-size: 15.79px;
+}
+
+
+cite {
+    padding: 2px;
+    color: #757575;
+}
+
+span {
+    color: #0077c5;
+}
+
+.form-footer {
+    background: #eceef1;
+    height: 53px;
+    /* width: 100%; */
+    margin: 0 -30px 0 -30px;
+    text-align: center;
+    padding: 1em 1em 0 3.5em;
+}
+
+footer {
+    padding: 20px 0;
+    margin: 0 96px;
+    text-align: center;
+}
+
+footer .terms {
+    margin: auto;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    padding-right: 1em;
+}
+
+.terms {
+    width: 800px;
+    padding: 0 0 7em 0;
+}
+
+footer div.terms p {
+    margin: 0;
+}
+
+footer ul {
+    margin: 0;
+}
+
+footer button {
+    /* display: flex;
+    justify-content: flex-end; */
+    height: 55px;
+    /* float: right; */
+    background-color: #6B6C72;
+    font-size: 14px;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 0;
+    right: 5%;
+    font-size: 14px;
+    color: #fff;
+    border-radius: .5em;
+}
