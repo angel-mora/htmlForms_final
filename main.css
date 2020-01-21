@@ -55,4 +55,31 @@ body {
     background-repeat: no-repeat;
 }
 
+
 /* cp ak 1 */
+
+.main-content {
+    margin: auto;
+    padding-bottom: 4em;
+}
+
+.logos-section {
+    padding: 20px 0;
+}
+
+.logo {
+    height: 35px;
+    width: 118px;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new@2x-a8356d8c.png);
+    background-size: 562px 83px;
+    margin: auto;
+}
+
+.logo-icons-section img {
+    position: absolute;
+    width: 18%;
+    right: 65em;
+}
+
+
+/* cp am 2 */
