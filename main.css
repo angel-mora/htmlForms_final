@@ -83,3 +83,101 @@ body {
 
 
 /* cp am 2 */
+
+.form-body {
+    height: 668px;
+    width: 340px;
+    padding: 30px;
+    border: 1px solid #c7c7c7;
+    margin: auto;
+    background: #ffffff;
+}
+
+form {
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 24px;
+}
+
+.learn-more {
+    margin: 0;
+    color: #0077c5;
+}
+
+.form-header {
+    padding-bottom: 3em;
+}
+
+.form-header p:nth-of-type(1) {
+    margin-bottom: 0;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input div {
+    height: 3em;
+}
+
+.form-input label {
+    text-align: start;
+    padding: 0 0 0.3em 0.1em;
+    font-size: 14px;
+    color: #404040;
+}
+
+.form-input input {
+    padding: 0 6px 0 8px;
+    width: 320px;
+    height: 34px;
+    align-self: center;
+}
+
+.form-input p {
+    text-align: start;
+    margin: 0;
+    font-size: 10px;
+    padding: 0.4em 0 0.4em 0.2em;
+}
+
+.lock {
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/lock-left-grey@3x-a1ab5bd1.png) no-repeat 0 50%/21px 21px;
+    height: 44.1em;
+    position: absolute;
+    width: 68em;
+    right: 10px;
+}
+
+.form-input button {
+    width: 338px;
+    height: 44px;
+    background: #0077c5;
+    align-self: center;
+    color: #ffffff;
+    border-radius: 0.4em;
+    font-size: 15.79px;
+}
+
+cite {
+    padding: 2px;
+    color: #757575;
+}
+
+span {
+    color: #0077c5;
+}
+
+.form-footer {
+    background: #eceef1;
+    height: 53px;
+    /* width: 100%; */
+    margin: 0 -30px 0 -30px;
+    text-align: center;
+    padding: 1em 1em 0 3.5em;
+}
+
+/* cp ak 3 */
