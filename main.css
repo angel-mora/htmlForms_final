@@ -180,4 +180,56 @@ span {
     padding: 1em 1em 0 3.5em;
 }
 
+
 /* cp ak 3 */
+
+footer {
+    padding: 20px 0;
+    margin: 0 96px;
+    text-align: center;
+}
+
+footer .terms {
+    margin: auto;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    padding-right: 1em;
+}
+
+.terms {
+    width: 800px;
+    padding: 0 0 7em 0;
+}
+
+footer div.terms p {
+    margin: 0;
+}
+
+footer ul {
+    margin: 0;
+}
+
+footer button {
+    /* display: flex;
+    justify-content: flex-end; */
+    height: 55px;
+    /* float: right; */
+    background-color: #6B6C72;
+    font-size: 14px;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 0;
+    right: 5%;
+    font-size: 14px;
+    color: #fff;
+    border-radius: .5em;
+}
+
+
+/* cp am 4 */
